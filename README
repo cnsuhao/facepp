@@ -1,0 +1,16 @@
+install
+
+Runtime environment£º
+Linux
+
+#### Dependent libraries
+
+- curl-7.48.0£¬get new vision
+	https://github.com/bagder/curl
+- openssl-1.0.1k£¬get new vision
+	https://github.com/openssl/openssl
+
+
+####build project
+if you first run then
+	bash install_first.sh
