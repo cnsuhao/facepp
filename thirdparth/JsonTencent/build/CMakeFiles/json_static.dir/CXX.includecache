@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/project/libface++/thirdparth/JsonTencent/build/CMakeFiles/3.2.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
+

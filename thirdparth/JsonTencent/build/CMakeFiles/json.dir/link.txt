@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC   -shared -Wl,-soname,libjson.so -o libjson.so CMakeFiles/json.dir/CMakeFiles/3.2.2/CompilerIdCXX/CMakeCXXCompilerId.o 

@@ -1,0 +1,2 @@
+/home/project/libface++/thirdparth/JsonTencent/build/CMakeFiles/json_static.dir
+/home/project/libface++/thirdparth/JsonTencent/build/CMakeFiles/json.dir

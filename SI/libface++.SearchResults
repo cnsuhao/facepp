@@ -1,0 +1,11 @@
+---- LOGD Matches (10 in 5 files) ----
+HttpClient.cpp (src\http):	LOGD(category, "url = %s, file = %s\n",strUrl.c_str(), file.c_str());
+HttpClient.cpp (src\http):	LOGD("url = %s&%s\n",strUrl.c_str(), strPost.c_str());
+Http_post.cpp (src\http):	LOGD("accept data is: \n%s", pData);
+Http_post.cpp (src\http):	//LOGD(category, "url = %s, file = %s\n",strUrl.c_str(), file.c_str());
+Main.cpp (src\common):	LOGD("init zlog succeed!");
+Read_cfg.cpp (src\faceppapi):	LOGD(m_options["API_SECRET"].c_str());
+Zlog.h (libs\zlog\include):#define LOGD(cat, ...) \
+Zlog.h (libs\zlog\include):#define LOGD(...) \
+Zlog.h (libs\zlog\include):#define LOGD(cat, format, args...) \
+Zlog.h (libs\zlog\include):#define LOGD(format, args...) \

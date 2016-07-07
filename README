@@ -1,16 +1,22 @@
-install
-
-Runtime environment£º
-Linux
-
-#### Dependent libraries
-
-- curl-7.48.0£¬get new vision
-	https://github.com/bagder/curl
-- openssl-1.0.1k£¬get new vision
-	https://github.com/openssl/openssl
-
-
-####build project
-if you first run then
-	bash install_first.sh
+Explanation£º
+	Written in C ++ network library face recognition face ++ API
+	Part of the contents from the network, after I joined modules, combined into a complete project.
+	
+Directory Description£º
+	bin£º		Target output file path
+	include£º	head File
+	libs£º		Library file
+	src£º		Source File
+	thirdparth£ºThird-party library source code
+	
+install£º
+	1¡¢The first compilation of the first to enter thirdparth run install.sh)
+	2¡¢thirdparth / JsonTencent as json library, such as the need to compile a library, 
+	   enter its directory manually compiled, since the library is all header files users 
+	   can directly reference can be copied to the project specified directory 
+	   (eg: user_project / include) and then quote
+	   
+	3¡¢Work home directory:
+		sudo mkdir build
+		sudo cmake ..
+		sudo make

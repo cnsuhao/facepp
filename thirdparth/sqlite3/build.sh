@@ -8,7 +8,7 @@ BASEDIR=`pwd`
 cd sqlite-autoconf-3130000
 
 echo "install to $BASEDIR"
-./configure --prefix="$BASEDIR"
+./configure --prefix="$BASEDIR"/sqlite3
 make -j1
 if [ $? ne 0 ]; then
 	echo "build sqlite3 fail"
@@ -20,3 +20,4 @@ make install
 echo "make ok clean"
 cd ..
 rm -fr sqlite-autoconf-3130000
+mv sqlite3 ../../libs

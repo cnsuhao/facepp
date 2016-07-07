@@ -1,5 +1,0 @@
-#! /bin/sh
-
-export LD_LIBRARY_PATH=/home/liangsenming/project/RobotServer/libs/jsoncpp:$LD_LIBRARY_PATH
-export LD_LIBRARY_PATH=/home/liangsenming/project/RobotServer/libs/libghttp-1.0.9:$LD_LIBRARY_PATH
-./robotserver

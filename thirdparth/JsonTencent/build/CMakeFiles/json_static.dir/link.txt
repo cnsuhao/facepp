@@ -1,0 +1,2 @@
+/usr/bin/ar cq libjson.a  CMakeFiles/json_static.dir/CMakeFiles/3.2.2/CompilerIdCXX/CMakeCXXCompilerId.o
+/usr/bin/ranlib libjson.a

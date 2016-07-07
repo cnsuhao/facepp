@@ -8,7 +8,7 @@ BASEDIR=`pwd`
 cd openssl-1.0.1k
 
 echo "install to $BASEDIR"
-./config --prefix="$BASEDIR" shared
+./config --prefix="$BASEDIR"/openssl shared
 make -j1
 if [ $? ne 0 ]; then
 	echo "build openssl fail"
@@ -21,3 +21,4 @@ make install
 echo "make ok clean"
 cd ..
 rm -fr openssl-1.0.1k
+mv openssl ../../libs

@@ -1,0 +1,19 @@
+说明：
+	使用C++编写face++人脸识别网络库的API
+	部分内容来自网络，经过本人加入了模块，组合成了一个完整的工程。
+	
+目录说明：
+	bin：		目标文件输出路径
+	include：	头文件
+	libs：		库文件
+	src：		源文件
+	thirdparth：第三方库源码
+	
+install：
+	1、首次编译首先要进入thirdparth运行install.sh
+	2、thirdparth/JsonTencent为json库，如需要编译成库，则进入其目录进行手动编译，由于该库全部是头文件
+		用户可以直接引用，也可以拷贝到工程指定目录下（如：user_project/include）再引用
+	3、工作主目录下:
+		sudo mkdir build
+		sudo cmake ..
+		sudo make
